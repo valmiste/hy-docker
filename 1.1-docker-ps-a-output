@@ -1,0 +1,9 @@
+CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS                      PORTS                               NAMES
+e2f975ee4320        fav_distro:xenial       "uptime"                 6 minutes ago       Exited (0) 6 minutes ago                                        suspicious_blackwell
+334d510696c7        nginx                   "nginx -g 'daemon of…"   8 minutes ago       Up 8 minutes                80/tcp                              sleepy_hoover
+0f9440d37570        nginx                   "nginx -g 'daemon of…"   15 minutes ago      Exited (0) 8 minutes ago                                        infallible_stallman
+8cf136ca6ccc        hello-world             "/hello"                 4 hours ago         Exited (0) 4 hours ago                                          sad_mccarthy
+0b8ee0cbd5b4        wordpress:latest        "docker-entrypoint.s…"   3 weeks ago         Up 6 hours                  0.0.0.0:8000->80/tcp                devto-test_wordpress_1
+dfde43dea031        phpmyadmin/phpmyadmin   "/docker-entrypoint.…"   3 weeks ago         Exited (255) 31 hours ago   80/tcp                              devto-test_phpmyadmin_1
+b0995f7f921e        mysql:5.7               "docker-entrypoint.s…"   3 weeks ago         Up 6 hours                  0.0.0.0:3306->3306/tcp, 33060/tcp   devto-test_db_1
+48f4a97443fe        hello-world             "/hello"                 3 weeks ago         Exited (0) 3 weeks ago                                          determined_hawking
