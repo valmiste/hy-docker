@@ -1,0 +1,2 @@
+# map host port 80 to container port 80 - so curl localhost works
+docker run -d -p 80:80 devopsdockeruh/ports_exercise
